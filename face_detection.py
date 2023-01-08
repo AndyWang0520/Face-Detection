@@ -18,8 +18,8 @@ server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
 
 # Log in to the email account
-sender = "my@email.com"
-password = "mypassword"
+sender = "test@email.com" #replace with email used to send photo
+password = "mypassword" # password of email left out for security reasons
 server.login(sender, password)
 
 # Initialize the video capture
